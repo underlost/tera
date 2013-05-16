@@ -2,9 +2,8 @@
 
 ##PSD Revisions
 
-Original: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise.jpg
-
-Revised: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise_modified.jpg
+*Original: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise.jpg
+*Revised: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise_modified.jpg
 
 I made two major revisions to the CSS file:
 
@@ -22,12 +21,12 @@ I chose to go with Bootstrap instead of a a normalize/reset css because of a cou
 The other primary reason I went with Bootstrap was the javascript components like the carousel. Instead of writing a custom jquery plugin or javascript file from scratch, it was much quicker to include bootstrap-carousel.js to display the selection of videos. And with LESS, I have the ability to customize its look however I needed.  
 
 ####Modernizr/Placeholder.js
-I only ran into one major issue with backwards compatibility with older browsers that I needed to address: Placeholder text in forms. the placeholder element is useful for displaying initial data in form fields (‘enter your email address’, in the newsletter section for example). Added in HTML5, this is missing in a lot of older browsers (again, mostly IE). Luckily placeholder.js is able to reproduce it for unsupported browsers. So I use Modernizer to detect what is/isn’t supported on the user’s browser. If the placeholder element isn’t supported, Modernizer will load the placeholder.js file. 
+I only ran into one major issue with backwards compatibility with older browsers that I needed to address: Placeholder text in forms. the placeholder element is useful for displaying initial data in form fields (‘enter your email address’, in the newsletter section for example). Added in HTML5, this is missing in a lot of older browsers (again, mostly IE). Luckily placeholder.js is able to reproduce it for unsupported browsers. I used Modernizer to detect what is/isn’t supported on the user’s browser. If the placeholder element isn’t supported, Modernizer will load the placeholder.js file to recreate the functionality. 
 
 ##Misc notes
 
-####tera.less
-Most of the CSS I wrote is in the tera.less file. Tera.less handles most of the layout and provides a few overrides on the other less files. For convenience sake, I kept most of my work separate in a single file to demonstrate what i did. If it were a real production site, I’d probably customize the other files much more than i did. 
+####tera.css
+Most of the CSS I wrote is in tera.css. Tera.css handles most of the layout and provides a few overrides on the other less files. For convenience sake, I kept most of my work separate in a single file away from bootstrap to demonstrate what I did. While I also made a number of modifications to the Bootstrap less files, I’d probably merge a lot more of the tera.css into the other less files. 
 
 ####CSS Sprites
-I created two separate spite files (thumbnails.jpg, symbols.png) besides the normal images. Normally I would combine mostly everything in one file. I didn’t want to waste the time to combine everything, so I just did these two files to demonstrate my ability to use them.
+I created two separate sprite files (thumbnails.jpg, symbols.png) besides the normal images. Again, normally I would merge mostly everything in one file. But, I didn’t want to waste the time to combine everything, so I just did these two files to demonstrate my ability to use them.
