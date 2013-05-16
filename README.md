@@ -3,6 +3,7 @@
 ##PSD Revisions
 
 Original: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise.jpg
+
 Revised: https://raw.github.com/underlost/tera/gh-pages/assets/img/_psd/exercise_modified.jpg
 
 I made two major revisions to the CSS file:
