@@ -279,6 +279,10 @@ div.boxes div.box span.caption {
 
 }
 
+div.boxes div.box a:hover span.caption {
+	color: #ccc;
+}
+
 section#main #news-updates{
 	height: 200px;
 	width: 312px;
