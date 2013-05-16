@@ -7,9 +7,9 @@
 
 I made two major revisions to the CSS file:
 
-* With the PSD being only a width of only 1024px, the background imgage that displays the characters appears cut off on larger resolutions. I added a few simple gradients so its a little less jarring and doesn’t look like the image is just cut off on the sides. If I had more assets, Id probably work with a designer/artist to make something a little more high res that spans the entire width of the user’s browser window. 
+* With the PSD being a width of only 1024px, the background imgage that displays the characters appears cut off on larger resolutions. I added a few simple gradients so its a little less jarring and doesn’t look like the image is just cut off on the sides. If I had more assets, Id probably work with a designer/artist to make something a little more high res that spans the entire width of the user’s browser window. 
 
-* Text merged onto other layers, so it proved to be a little tricky to get decent background image slices of the psd. This applied primarily to the navigation near the top of the page. Granted I could have sliced the nav up into individual images, but striping the text from the PSD and adding it later in the HTML proves with more flexibility for simple hover/focus states. 
+* Text was merged onto other layers, so it proved to be a little tricky to get decent background image slices off the psd. This applied primarily to the navigation near the top of the page. Granted I could have sliced the nav up into individual images, but striping the text from the PSD and adding it later in the HTML proves with more flexibility for simple hover/focus states. 
 
 * I also briefly touched up some of the borders in the content section. There were partially deleted leaves in the top right of the border.
 

@@ -1,5 +1,3 @@
-/* CSS for the layout. Moved to tera.less */
-
 body {
 	background: #000 url('../img/img_background.jpg') center top no-repeat;	
 }
@@ -377,6 +375,9 @@ footer#bottom span#copyright{
 	margin-left: 20px;
 }
 footer#bottom span#copyright ul li {
+	padding: 0 6px;
+	font-size: 10px;
+	line-height: 10px;
 	border-right: 1px solid #49443c;	
 }
 
