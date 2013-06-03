@@ -16,7 +16,7 @@ I made two major revisions to the CSS file:
 ##3rd party scripts used
 
 ####Bootstrap Framework
-I chose to go with Bootstrap instead of a a normalize/reset css because of a couple reasons. Besides the normal reset, Bootstrap provides several handy utilities for alignment and the ability to customize forms.  In general I’ve found working with Bootstrap is also easier for making sites compatible across all browsers, with ut the need to use a lot of extra pesky little hacks to make things work in older browsers like IE7/8.
+I chose to go with Bootstrap instead of a a normalize/reset css because of a couple reasons. Besides the normal reset, Bootstrap provides several handy utilities for alignment and the ability to customize forms.  In general I’ve found working with Bootstrap is also easier for making sites compatible across all browsers, with out the need to use a lot of extra pesky little hacks to make things work in older browsers like IE7/8.
 
 The other primary reason I went with Bootstrap was the javascript components like the carousel. Instead of writing a custom jquery plugin or javascript file from scratch, it was much quicker to include bootstrap-carousel.js to display the selection of videos. And with LESS, I have the ability to customize its look however I needed.  
 
